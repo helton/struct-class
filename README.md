@@ -39,11 +39,15 @@ Return Type:  `class`
 
 > Returns a class with a default constructor using all the parameters provided.
 
+___
+
 ### dig (...keys)
 
 Return Type:  `any`
 
 > Extracts the nested value specified by the sequence of *key* objects by calling `dig` at each step, returning `undefined` if any intermediate step is `undefined`.
+
+___
 
 ### each (fn)
 
@@ -51,17 +55,23 @@ Return Type:  `void`
 
 > Iterates over the struct members, returning their property names.
 
+___
+
 ### eachPair (fn)
 
 Return Type:  `void`
 
 > Iterates over the struct members, returning their property names and values
 
+___
+
 ### inspect ()
 
 Return Type:  `string`
 
 > Describes the contents of the struct in a string.
+
+___
 
 ### length
 
@@ -71,6 +81,8 @@ Return Type:  `number`
 
 > Returns the number of struct members.
 
+___
+
 ### members
 
 *Attribute*
@@ -79,11 +91,15 @@ Return Type:  `Array[string]`
 
 > Returns the struct members as an array of `string`.
 
+___
+
 ### select (fn)
 
 Return Type:  `void`
 
 > Iterates over the struct members, returning their property names.
+
+___
 
 ### size
 
@@ -93,11 +109,15 @@ Return Type:  `number`
 
 > Returns the number of struct members.
 
+___
+
 ### toString ()
 
 Return Type:  `string`
 
 > Describes the contents of the struct in a `string`.
+
+___
 
 ### toArray ()
 
@@ -105,11 +125,15 @@ Return Type:  `Array[any]`
 
 > Returns the values for this struct as an `Array`.
 
+___
+
 ### toMap ()
 
 Return Type:  `Map[string => any]`
 
 > Returns the values for this struct as a `Map`.
+
+___
 
 ### values
 
@@ -119,11 +143,15 @@ Return Type:  `Array[any]`
 
 > Returns the values for this struct as an `Array`.
 
+___
+
 ### valuesAt (....selectors)
 
 Return Type:  `Array[any]`
 
 > Returns the struct member values for each selector as an Array. A selector should be a `number` or a `string` representing the property name.
+
+___
 
 ## License
 
