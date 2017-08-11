@@ -66,6 +66,7 @@ Return Type:  `string`
 ### length
 
 *Attribute*
+
 Return Type:  `number`
 
 > Returns the number of struct members.
@@ -73,6 +74,7 @@ Return Type:  `number`
 ### members
 
 *Attribute*
+
 Return Type:  `Array[string]`
 
 > Returns the struct members as an array of `string`.
@@ -86,6 +88,7 @@ Return Type:  `void`
 ### size
 
 *Attribute*
+
 Return Type:  `number`
 
 > Returns the number of struct members.
@@ -111,6 +114,7 @@ Return Type:  `Map[string => any]`
 ### values
 
 *Attribute*
+
 Return Type:  `Array[any]`
 
 > Returns the values for this struct as an `Array`.

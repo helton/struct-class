@@ -121,7 +121,6 @@ test('should be able to access multiple properties by index with valuesAt()', as
 test('should be able to access multiple properties by index and name with valuesAt()', async t => {
   const Foo = class extends Struct.new('a', 'b', 'c', 'd') {}
   const foo = new Foo('abc', 123, 42, 'last')
-  console.log('here!!!!! ', foo.valuesAt('d', 2, 'a', 1))
   t.deepEqual(foo.valuesAt('d', 2, 'a', 1), ['last', 42, 'abc', 123])
 })
 
