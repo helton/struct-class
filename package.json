@@ -1,0 +1,18 @@
+{
+  "name": "struct-class",
+  "version": "1.0.0",
+  "description": "Struct class from Ruby to JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/helton/struct-class.git",
+  "author": "Helton Carlos de Souza <heltoncarlossouza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava --color --verbose",
+    "test-watch": "yarn test -- --watch"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
